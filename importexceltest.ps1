@@ -1,3 +1,5 @@
+Import-Module ImportExcel
+
 $ExcelData = Open-ExcelPackage -path $PSScriptRoot\spreadsheet.xlsx
 
 
